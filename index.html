@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ML Network | Shaka's Adventure</title>
+
+<meta name="description"
+content="Shaka's Adventure is an upcoming African-inspired action-adventure game developed by ML Network.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- =========================
+HEADER
+========================= -->
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a href="#" class="logo">
+            <img src="images/ml-logo.png" alt="ML Logo">
+        </a>
+
+        <nav class="nav">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#waiting-list">Waitlist</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <a href="#waiting-list" class="btn-nav">
+            Join Waiting List
+        </a>
+
+        <div class="menu-toggle">
+            ☰
+        </div>
+
+    </div>
+
+</header>
+
+<!-- =========================
+HERO
+========================= -->
+
+<section class="hero" id="home">
+
+    <img
+        src="images/banner.jpg"
+        alt="Shaka's Adventure"
+        class="hero-image">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="hero-label">
+            ML NETWORK PRESENTS
+        </span>
+
+        <h1>
+            Shaka's Adventure
+        </h1>
+
+        <p>
+            An epic African-inspired adventure is coming soon.
+            Explore ancient lands, uncover hidden secrets,
+            and prepare for a legendary journey.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#waiting-list" class="btn-primary">
+                Join Waiting List
+            </a>
+
+            <a href="#gallery" class="btn-secondary">
+                View Screenshots
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+ABOUT
+========================= -->
+
+<section class="about" id="about">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>ABOUT THE GAME</span>
+
+            <h2>
+                A New Adventure Awaits
+            </h2>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <p>
+
+                    Shaka's Adventure is an upcoming action-adventure
+                    game developed by ML Network.
+
+                </p>
+
+                <p>
+
+                    Inspired by African landscapes, mythology,
+                    exploration, and storytelling, the game invites
+                    players into a vibrant world filled with discovery,
+                    mystery, and unforgettable adventures.
+
+                </p>
+
+                <p>
+
+                    Every journey begins with a single step.
+                    Yours starts here.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+SCREENSHOTS
+========================= -->
+
+<section class="gallery" id="gallery">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>SCREENSHOTS</span>
+
+            <h2>
+                Explore The World
+            </h2>
+
+        </div>
+
+        <div class="showcase">
+
+            <div class="showcase-image">
+                <img src="images/screenshot-1.jpg" alt="Screenshot One">
+            </div>
+
+            <div class="showcase-content">
+
+                <h3>
+                    Explore Vast Landscapes
+                </h3>
+
+                <p>
+                    Discover beautiful environments inspired by
+                    Africa's natural beauty and rich heritage.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="showcase reverse">
+
+            <div class="showcase-image">
+                <img src="images/screenshot-2.jpg" alt="Screenshot Two">
+            </div>
+
+            <div class="showcase-content">
+
+                <h3>
+                    Forge Your Own Path
+                </h3>
+
+                <p>
+                    Face challenges, uncover hidden secrets,
+                    and embark on an unforgettable adventure.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+COMING SOON
+========================= -->
+
+<section class="coming-soon">
+
+    <div class="container">
+
+        <span class="coming-label">
+            COMING SOON
+        </span>
+
+        <h2>
+            The Adventure Begins Soon
+        </h2>
+
+        <p>
+
+            Be among the first players to receive updates,
+            development news, trailers, and launch announcements.
+
+        </p>
+
+        <a href="#waiting-list" class="btn-primary">
+            Join The Waiting List
+        </a>
+
+    </div>
+
+</section>
+
+<!-- =========================
+WAITING LIST
+========================= -->
+
+<section class="waiting-list" id="waiting-list">
+
+    <div class="container">
+
+        <div class="form-box">
+
+            <h2>
+                Join The Waiting List
+            </h2>
+
+            <p>
+                Receive updates about development progress,
+                launch dates, and exclusive announcements.
+            </p>
+
+            <form id="waitlistForm">
+
+                <input
+                    type="text"
+                    placeholder="Full Name"
+                    required>
+
+                <input
+                    type="email"
+                    placeholder="Email Address"
+                    required>
+
+                <button type="submit">
+                    Join Waiting List
+                </button>
+
+            </form>
+
+            <p id="successMessage"></p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+CONTACT
+========================= -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>ML NETWORK</span>
+
+            <h2>
+                Independent Game Studio
+            </h2>
+
+        </div>
+
+        <p class="contact-text">
+
+            ML Network is an independent game studio focused
+            on creating memorable digital experiences inspired
+            by African stories, creativity, and imagination.
+
+        </p>
+
+        <div class="contact-buttons">
+
+            <a href="mailto:hello@mlnetwork.co.za" class="btn-primary">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-logo">
+
+            <img
+                src="images/ml-network-logo.png"
+                alt="ML Network Logo">
+
+        </div>
+
+        <p class="footer-tagline">
+
+            Creating African-Inspired Gaming Experiences
+
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#waiting-list">Waitlist</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 ML Network. All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- =========================
+SCRIPT
+========================= -->
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
